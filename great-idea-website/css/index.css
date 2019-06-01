@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5 {
 .mymenu nav { 
 	display: inline-block;
 	padding: 15px;
+	margin-right: 50px;
+	margin-left: -60px;
+	width: 75%;
+	background: white;
 }
 .mymenu nav a{ 
 	text-decoration: none;
@@ -110,6 +114,7 @@ header .header-image {
 	display: inline-block;
 	background-color: white;
 	margin: 45px;
+	padding: 10px;
 }
 
 .header-motto button {
@@ -118,6 +123,7 @@ header .header-image {
 	width: 175px;
 	height: 40px;
 	font-size: 16px;
+	vertical-align: top;
 }
 
 
@@ -183,7 +189,8 @@ hr {
   margin-left: auto;
   margin-right: 48px;
   border-style: inset;
-  border-width: 1px;
+	border-width: 1px;
+	border-color: black;
 } 
 
 li {
