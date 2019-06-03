@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* CONTENT CONTAINER */ 
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+	 background-color: white;
+}
+
+
+/* MENU */
+
+.mymenu nav { 
+	display: inline-block;
+	padding: 15px;
+	margin-right: 50px;
+	margin-left: -60px;
+	width: 75%;
+	background: white;
+}
+.mymenu nav a{ 
+	text-decoration: none;
+	padding: 30px;
+	color: gray;
+}
+
+.mymenu .logo {
+	display: inline-block;
+	margin: auto;
+	vertical-align: middle;
+}
+
+/* HEADER */
+header {
+	width: 950px;
+	background-color: white;
+}
+
+header .header-motto {
+	font-size: 85px;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	margin: 45px;
+}
+
+header .header-image { 
+	display: inline-block;
+	background-color: white;
+	margin: 45px;
+	padding: 10px;
+}
+
+.header-motto button {
+	background-color: white;
+	border-color: black;
+	width: 175px;
+	height: 40px;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+
+/* MAIN CONTENT */
+
+main h3{ 
+	font-size: 23px;
+}
+
+
+/* TOP MAIN */
+
+main .features  { 
+	display: inline-block;
+	background-color: white;
+	width: 450px;
+	margin-top: 35px;
+}
+
+main .about { 
+	display: inline-block;
+	background-color: white;
+	width: 450px;
+	margin: 10px;
+}
+
+
+main img { 
+	display: inline-block;
+	margin-top: 3px;
+	margin-bottom: 20px;
+}
+
+/* BOTTOM MAIN */ 
+main .services { 
+	display: inline-block;
+	width: 275px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+main .product { 
+	display: inline-block;
+	margin-right: 30px;
+	width: 275px;
+
+}
+main .vision { 
+	display: inline-block;
+	width: 275px;
+}
+
+/* FOOTER */
+.copyright {
+	text-align: center;
+}
+
+/* PAGE ELEMENTS */
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: 48px;
+  border-style: inset;
+	border-width: 1px;
+	border-color: black;
+} 
+
+li {
+list-style-type: none;
+line-height: 20px;
+}
+
